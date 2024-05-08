@@ -14,6 +14,10 @@ This particular code example is optimized to work with the **RDK4** platform. Si
 - The RDK3 development kit must be provisioned before use.
 - The RDK4 development kit must be powered from BATTERY terminals with a 12V power supply.
 
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
+
 ## Using the code example
 
 Create the project and open it using one of the following:
@@ -68,6 +72,10 @@ For more details, see the [Eclipse IDE for ModusToolbox&trade; software user gui
 For the typical precision of GNSS measurements, the commands shown above are fully sufficient.
 
 <img src="images/UM980_Test_Indoors.jpg" style="zoom:60%;" />
+
+#### SBC Development Mode
+
+A special mode, called SBC Development Mode, is available during software development or debugging of the system. The watchdog counter is stopped and does not need to be triggered. This mode can be accessed by setting the TEST [**FO3**] pin to GND during SBC Init Mode.
 
 ## Legal Disclaimer
 
