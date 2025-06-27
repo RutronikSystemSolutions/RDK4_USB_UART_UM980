@@ -10,7 +10,7 @@ This particular code example is optimized to work with the **RDK4** platform. Si
 
 ## Requirements
 
-- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) v3.x
+- [ModusToolbox® software](https://www.infineon.com/cms/en/design-support/tools/sdk/modustoolbox-software/) v2025.4.0
 - The RDK3 development kit must be provisioned before use.
 - The RDK4 development kit must be powered from BATTERY terminals with a 12V power supply.
 
